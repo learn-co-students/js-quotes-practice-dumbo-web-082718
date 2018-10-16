@@ -124,12 +124,5 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector(`#quote-author-${e.target.value}`).innerText = e.target.author.value
       })
     e.target.hidden = true;
-    // .then(res => res.json())
-    // .then(json => {
-    //   console.log(json)
-    //   showSingleQuote(json)
-    //   console.log(newContent)
-    //   // oldContent.innerHTML = newContent
-    // })
   }
 });
